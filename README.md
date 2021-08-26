@@ -1,6 +1,6 @@
 # CodeChallenge TODO list
 1. Solve TODOs in CodeChallenge/Application/Services/CustomerService.cs
-2. How can we improve the response models be improved in:
+2. How can the response models be improved in:
     * CodeChallenge.Application/Queries/GetCustomerById
     * CodeChallenge.Application/Queries/GetCustomerList
     * CodeChallenge.Application/Queries/GetCustomersByName
