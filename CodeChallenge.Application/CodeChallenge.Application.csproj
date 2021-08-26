@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <ProjectGuid>{88514431-CC35-4984-A024-9C2D3238AE7B}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Caching" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeChallenge.Domain\CodeChallenge.Domain.csproj">
+      <Project>{f5c04565-27ec-46a7-870b-9a0905093346}</Project>
+      <Name>CodeChallenge.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeChallenge.Infrastructure\CodeChallenge.Infrastructure.csproj">
+      <Project>{ac49d1b6-103a-4f8d-9550-acca2c026f5d}</Project>
+      <Name>CodeChallenge.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
