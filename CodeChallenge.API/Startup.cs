@@ -24,14 +24,15 @@ namespace DataModelCodeChallenge.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CodeChallengeDbContext>(opt => opt.UseInMemoryDatabase(databaseName: "InMemoryDb"));
+            services.AddDbContext<CodeChallengeDbContext>(opt => opt.UseInMemoryDatabase(databaseName: "InMemoryDb"), ServiceLifetime.Transient);
 
             services.AddOptions();
             services.AddControllers();
             services.AddAuthorization();
 
-            services.AddScoped<ICustomerService, CustomerService>();
-            services.AddSingleton<CodeChallengeMemoryCache>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddSingleton<CodeChallengeMemoryCache>(); 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
