@@ -24,17 +24,18 @@ namespace CodeChallenge.Application.Services
         // TODO: Reimplement using Linq
         public Customer GetCustomerById(long id)
         {
-            var customers = GetAllCustomers();
+            return GetAllCustomers()
+                .FirstOrDefault(c => c.Id == id);
 
-            foreach (var customer in customers)
-            {
-                if (customer.Id == id)
-                {
-                    return customer;
-                }
-            }
+            //foreach (var customer in customers)
+            //{
+            //    if (customer.Id == id)
+            //    {
+            //        return customer;
+            //    }
+            //}
 
-            return null;
+            //return null;
         }
 
         // TODO: Reimplement using iterator blocks
@@ -44,15 +45,20 @@ namespace CodeChallenge.Application.Services
 
             var customers = GetAllCustomers();
 
+            result.AddRange(FilterCustomersByName(name, customers));
+
+            return result;
+        }
+
+        private static IEnumerable<Customer> FilterCustomersByName(string name, IEnumerable<Customer> customers)
+        {
             foreach (var customer in customers)
             {
                 if (customer.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase))
                 {
-                    result.Add(customer);
+                    yield return customer;
                 }
             }
-
-            return result;
         }
 
         public IEnumerable<Customer> GetAllCustomers()
