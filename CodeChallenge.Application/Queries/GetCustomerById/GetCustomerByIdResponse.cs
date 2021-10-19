@@ -1,23 +1,18 @@
-﻿using CodeChallenge.Application.Models.Enums;
-using CodeChallenge.Domain.Customers;
+﻿using CodeChallenge.Application.DTOs;
+using CodeChallenge.Application.Models.Enums;
 
 namespace CodeChallenge.Application.Queries.GetCustomerById
 {
-    public class GetCustomerByIdResponse
+    public class GetCustomerByIdResponse : BaseResponse
     {
-        public Customer Customer { get; set; }
+        public CustomerDTO Customer { get; private set; }
 
-        public string ErrorMessage { get; set; }
-
-        public StatusCode StatusCode { get; set; }
-
-        public GetCustomerByIdResponse()
-        {
-        }
-
-        public GetCustomerByIdResponse(Customer customer)
+        public GetCustomerByIdResponse(CustomerDTO customer)
         {
             Customer = customer;
         }
+
+        public GetCustomerByIdResponse(string errorMessage, StatusCode statusCode)
+            : base(errorMessage, statusCode) { }
     }
 }

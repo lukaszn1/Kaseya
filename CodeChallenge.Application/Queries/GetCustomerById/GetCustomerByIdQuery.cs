@@ -1,12 +1,10 @@
-﻿namespace CodeChallenge.Application.Queries.GetCustomerById
-{
-    public class GetCustomerByIdQuery
-    {
-        public long Id { get; set; }
+﻿using CodeChallenge.Application.Interfaces;
 
-        public GetCustomerByIdQuery()
-        {
-        }
+namespace CodeChallenge.Application.Queries.GetCustomerById
+{
+    public class GetCustomerByIdQuery : IQuery
+    {
+        public long Id { get; private set; }
 
         public GetCustomerByIdQuery(long id)
         {

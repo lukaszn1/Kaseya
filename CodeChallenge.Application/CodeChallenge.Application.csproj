@@ -8,6 +8,7 @@
     <ProjectGuid>{88514431-CC35-4984-A024-9C2D3238AE7B}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="System.Runtime.Caching" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>

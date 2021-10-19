@@ -1,12 +1,10 @@
-﻿namespace CodeChallenge.Application.Queries.GetCustomersByName
-{
-    public class GetCustomersByNameQuery
-    {       
-        public string Name { get; set; }
+﻿using CodeChallenge.Application.Interfaces;
 
-        public GetCustomersByNameQuery()
-        {
-        }
+namespace CodeChallenge.Application.Queries.GetCustomersByName
+{
+    public class GetCustomersByNameQuery : IQuery
+    {       
+        public string Name { get; private set; }
 
         public GetCustomersByNameQuery(string name)
         {

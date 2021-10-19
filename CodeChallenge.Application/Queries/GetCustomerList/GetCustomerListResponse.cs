@@ -1,24 +1,18 @@
-﻿using CodeChallenge.Application.Models.Enums;
-using CodeChallenge.Domain.Customers;
+﻿using CodeChallenge.Application.DTOs;
+using CodeChallenge.Application.Models.Enums;
 using System.Collections.Generic;
 
 namespace CodeChallenge.Application.Queries.GetCustomerList
 {
-    public class GetCustomerListResponse
+    public class GetCustomerListResponse : BaseResponse
     {
-        public List<Customer> Customers { get; set; }
+        public IList<CustomerDTO> Customers { get; set; }
 
-        public string ErrorMessage { get; set; }
-
-        public StatusCode StatusCode { get; set; }
-
-        public GetCustomerListResponse()
-        {
-        }
-
-        public GetCustomerListResponse(List<Customer> customers)
+        public GetCustomerListResponse(IList<CustomerDTO> customers)
         {
             Customers = customers;
         }
+        public GetCustomerListResponse(string errorMessage, StatusCode statusCode)
+            : base(errorMessage, statusCode) { }
     }
 }
