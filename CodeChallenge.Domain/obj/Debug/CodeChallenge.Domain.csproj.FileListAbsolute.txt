@@ -1,0 +1,6 @@
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\bin\Debug\DataModelCodeChallenge.Domain.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\bin\Debug\DataModelCodeChallenge.Domain.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\obj\Debug\CodeChallenge.Domain.csprojAssemblyReference.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\obj\Debug\CodeChallenge.Domain.csproj.CoreCompileInputs.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\obj\Debug\DataModelCodeChallenge.Domain.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Domain\obj\Debug\DataModelCodeChallenge.Domain.pdb

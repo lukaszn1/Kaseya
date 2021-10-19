@@ -1,0 +1,15 @@
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.deps.json
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.runtimeconfig.json
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.runtimeconfig.dev.json
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\DataModelCodeChallenge.Domain.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\bin\Debug\netcoreapp3.1\DataModelCodeChallenge.Domain.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.csprojAssemblyReference.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.AssemblyInfoInputs.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.AssemblyInfo.cs
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.csproj.CoreCompileInputs.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.csproj.CopyComplete
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Infrastructure\obj\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.genruntimeconfig.cache

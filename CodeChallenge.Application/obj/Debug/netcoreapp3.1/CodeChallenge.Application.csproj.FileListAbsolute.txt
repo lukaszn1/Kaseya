@@ -1,0 +1,14 @@
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.csprojAssemblyReference.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.AssemblyInfoInputs.cache
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.AssemblyInfo.cs
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\CodeChallenge.Application.deps.json
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\CodeChallenge.Application.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\CodeChallenge.Application.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\DataModelCodeChallenge.Domain.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\DataModelCodeChallenge.Domain.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Application\bin\Debug\netcoreapp3.1\CodeChallenge.Infrastructure.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.csproj.CopyComplete
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.dll
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.pdb
+D:\zadanie\CodeChallenge\CodeChallenge.Application\obj\Debug\netcoreapp3.1\CodeChallenge.Application.csproj.CoreCompileInputs.cache
